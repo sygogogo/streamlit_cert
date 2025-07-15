@@ -10,7 +10,7 @@ import requests
 import os
 
 # 파일 경로 설정
-FONT_PATH = "/mnt/data/HIGothic Light.ttf"
+FONT_PATH = "./HIGothic.ttf"  # 정확한 상대경로로 지정
 BG_IMAGE_PATH = "/mnt/data/가입증명서 배경 디자인.png"
 PDF_OUTPUT_PATH = "/mnt/data/가입증명서.pdf"
 
