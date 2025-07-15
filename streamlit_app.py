@@ -10,9 +10,9 @@ import requests
 import os
 
 # 파일 경로 설정
-FONT_PATH = "./HIGothic.ttf"  # 정확한 상대경로로 지정
-BG_IMAGE_PATH = "/mnt/data/가입증명서 배경 디자인.png"
-PDF_OUTPUT_PATH = "/mnt/data/가입증명서.pdf"
+FONT_PATH = "./HIGothicLight.ttf"  # 정확한 상대경로로 지정
+BG_IMAGE_PATH = "./가입증명서 배경 디자인.png"
+PDF_OUTPUT_PATH = "./가입증명서.pdf"
 
 # 폰트 등록
 pdfmetrics.registerFont(TTFont("HIGothic", FONT_PATH))
